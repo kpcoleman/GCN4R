@@ -5,24 +5,24 @@ import os
 
 PACKAGES=['pysnooper',
             'fire',
-            'numpy==1.18.1',
-            'pandas==0.25.3',
-            'networkx>=2.4',
-            'torch==1.4.0',
-            'scikit-learn==0.22.1',
-            'scipy==1.4.1',
+            'numpy',
+            'pandas',
+            'networkx',
+            'torch',
+            'scikit-learn',
+            'scipy',
             # 'torch-scatter==2.0.4',
             # 'torch-cluster==1.5.4',
             # 'torch-sparse==0.6.1',
             # 'torch-geometric==1.5.0',
             # 'torch_spline_conv==1.2.0',
-            'torchvision==0.5.0',
-            'matplotlib==3.1.2',
-            'seaborn==0.10.0',
-            'plotly==4.5.0',
-            'rpy2==2.9.4',
-            'cdlib>=0.1.8',
-            'captum==0.2.0']
+            'torchvision',
+            'matplotlib',
+            'seaborn',
+            'plotly',
+            'rpy2',
+            'cdlib',
+            'captum']
 
 with open('README.md','r', encoding='utf-8') as f:
       long_description = f.read()
